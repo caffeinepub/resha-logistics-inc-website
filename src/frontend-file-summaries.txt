@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup using Outlet for proper route rendering, includes home and privacy policy routes with Toaster for notifications.",
+  "frontend/src/pages/HomePage.tsx": "Home page layout component that composes Header, Hero, AboutUs, Services, QuoteForm, and Footer sections.",
+  "frontend/src/pages/PrivacyPolicyPage.tsx": "Privacy policy page with comprehensive privacy information, RingCentral SMS policy, contact details, and a new SMS Communication Notice section at the bottom with consistent styling.",
+  "frontend/src/components/Header.tsx": "Sticky header with logo, responsive navigation menu, smooth scrolling to sections, and mobile sheet menu.",
+  "frontend/src/components/Hero.tsx": "Hero section with background image overlay, compelling headline, and call-to-action button for quote requests.",
+  "frontend/src/components/AboutUs.tsx": "About section featuring company description, four key feature cards, and location information.",
+  "frontend/src/components/Services.tsx": "Services section displaying four service offerings (OTR, local delivery, reefer, team driving) with images and descriptions in a grid layout, now using the updated natural team driving image showing one driver driving and another in the passenger seat.",
+  "frontend/src/components/QuoteForm.tsx": "Quote request form with validation, consent checkbox, backend integration using React Hook Form and React Query, enhanced error handling with specific user feedback, and proper loading states that disable form inputs during submission.",
+  "frontend/src/components/Footer.tsx": "Footer with company logo, quick links, contact information (phone updated to 201.838.0000), and copyright notice with caffeine.ai attribution.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for submitting quote requests and fetching all quote requests with comprehensive error handling, type checking, and user-friendly error messages for various failure scenarios including missing backend functions and email delivery failures.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring professional blue primary color (250° hue) and orange accent (35° hue) for logistics brand identity."
+}

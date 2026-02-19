@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Reshad Logistics web application with quote request form, custom domain (www.reshalogistics.com) being configured with DNS verification",
+  "architectural_notes": [
+    "Custom domain www.reshalogistics.com configured with TXT verification record",
+    "SSL certificate auto-issued after DNS verification completes",
+    "Email sending disabled (requires paid feature for quote form functionality)"
+  ],
+  "known_issues": [
+    "DNS TXT record for www.reshalogistics.com not yet propagated (can take up to 24 hours)",
+    "Quote form email submission fails due to email sending being disabled on account"
+  ],
+  "isFixRequest": true,
+  "existing_features": [
+    {
+      "id": "feature-change-all-instances-of-the-phone-number-to-201-838-0000-in-the-frontend-codebase-including-footer-tsx-aboutus-tsx-and-any-other-components-displaying-contact-information",
+      "title": "Change all instances of the phone number to 201.838.0000 in the frontend codebase, including Footer.tsx, AboutUs.tsx, and any other components displaying contact information",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [],
+  "projectName": "Reshad Logistics",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-19T10:16:08.825Z",
+  "summary": "This is a deployment retry request with no code changes required. The diff shows modifications to backend/main.mo and project_state.json, which contradicts the constraint that no code changes should be made. The BuildRequest explicitly states this is a deployment-only operation using existing Version 8 artifacts.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "Modifications to backend/main.mo code including type definitions and module implementations",
+      "reason": "BuildRequest explicitly constrains 'No code changes required' and specifies 'deployment retry only', yet backend code has been modified",
+      "evidence": [
+        "backend/main.mo"
+      ]
+    },
+    {
+      "description": "Updates to project_state.json configuration file",
+      "reason": "BuildRequest specifies using existing Version 8 build artifacts with no modifications, but project_state.json has been changed",
+      "evidence": [
+        "project_state.json"
+      ]
+    }
+  ],
+  "confidence": 0.95,
+  "changed_files": [
+    "backend/main.mo",
+    "project_state.json"
+  ]
+}

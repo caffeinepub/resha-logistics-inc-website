@@ -1,0 +1,19 @@
+{
+  "kind": "build_request",
+  "title": "Retry production deployment",
+  "priority": "normal",
+  "requirements": [],
+  "constraints": [
+    "No code changes required - this is a deployment retry only",
+    "Use existing Version 8 build artifacts"
+  ],
+  "nonGoals": [
+    "Making any code modifications",
+    "Creating new features",
+    "Changing existing functionality"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

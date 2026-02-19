@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Main Motoko actor defining data types (Inquiry, QuoteRequest, RateTable, ContactInfo, Service, etc.) with comparison and conversion functions, includes blob storage mixin and HTTP outcall imports.",
+  "feature_evidence.json": "Empty feature evidence report JSON file with no features listed.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend components including routing, pages, forms, hooks, and styling with OKLCH color system.",
+  "frontend/index.html": "HTML entry point for Resha Logistics website with root div and module script reference to main.tsx.",
+  "frontend/src/App.tsx": "TanStack Router setup with root, home, and privacy policy routes, includes Toaster component for notifications.",
+  "frontend/src/components/AboutUs.tsx": "About section displaying company description, four feature cards (nationwide coverage, professional service, on-time delivery, customer focus), and location information.",
+  "frontend/src/components/Footer.tsx": "Footer component with logo, quick links navigation, contact information (phone 201.838.0000), and copyright notice with caffeine.ai attribution.",
+  "frontend/src/components/Header.tsx": "Sticky header with logo, responsive navigation (desktop and mobile sheet menu), smooth scrolling to sections, and privacy policy link.",
+  "frontend/src/components/Hero.tsx": "Hero section with background image overlay, headline about reliable nationwide logistics, and call-to-action button scrolling to quote form.",
+  "frontend/src/components/QuoteForm.tsx": "Quote request form using React Hook Form with validation, consent checkbox, loading states, error handling with toast notifications, and backend integration via useSubmitQuoteRequest hook.",
+  "frontend/src/components/Services.tsx": "React component that displays a grid of four service cards (OTR Trucking, Local Delivery, Refrigerated Transport, Team Driving) with icons, images, and descriptions. Uses shadcn/ui Card components with hover effects and responsive layout.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that manages the backend actor instance using React Query, handling authentication with Internet Identity and initializing access control. Invalidates dependent queries when the actor changes due to identity updates.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication on ICP, managing login state, identity persistence, and AuthClient lifecycle. Provides login, logout, and status tracking functionality with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for quote request operations: useSubmitQuoteRequest mutation for submitting new quotes with comprehensive error handling, and useGetAllQuoteRequests query for fetching all stored quote requests. Both hooks use the backend actor from useActor.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a complete design system including light/dark themes, color palettes (primary, secondary, accent, destructive), spacing (radius), and sidebar styling. Uses OKLCH color space for theme values.",
+  "frontend/src/main.tsx": "Application entry point that sets up React root with QueryClientProvider for React Query and InternetIdentityProvider for ICP authentication, then renders the App component. Imports global styles from index.css.",
+  "frontend/src/pages/HomePage.tsx": "Main landing page component that composes the full homepage layout with Header, Hero, AboutUs, Services, QuoteForm, and Footer sections in a flex column layout.",
+  "frontend/src/pages/PrivacyPolicyPage.tsx": "Privacy policy page component displaying Resha Logistics' privacy policy with sections on information collection, usage, RingCentral SMS communication policy, and data security. Uses Header/Footer layout with styled content sections.",
+  "frontend/src/utils/urlParams.ts": "Utility functions for extracting, storing, and managing URL parameters from both regular query strings and hash-based routing, with sessionStorage persistence support.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration with custom color scheme using OKLCH color space, extended theme settings for borders/shadows/animations, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project state file for Reshad Logistics web application tracking custom domain configuration (www.reshalogistics.com), DNS verification status, and a completed feature to update phone numbers to 201.838.0000."
+}
